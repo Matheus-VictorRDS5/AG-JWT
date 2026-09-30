@@ -1,0 +1,11 @@
+COMANDOS PARA TESTE NO POSTMAN  (base: http://127.0.0.1:5000)
+
+
+--- USUÁRIOS ---
+POST   /users/            (cadastro, sem token)
+  {"nome": "Ana", "email": "ana@email.com", "senha": "123456"}
+
+POST   /users/login       (login, sem token)
+  {"email": "ana@email.com", "senha": "123456"}
+ Token:
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc5MDc3NTM0MSwianRpIjoiZmY5MWExNTgtZDg5Zi00MmZlLWJmZmItY2QxZTgwOWEzYTRhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3OTA3NzUzNDEsImNzcmYiOiJmM2U1NWIxYi0wODRiLTQ0YzYtOTVhMy0zY2U4ZGMzYjY2MWQiLCJleHAiOjE3OTA3NzYyNDF9.7r2fGiw1e5xqNYUiiKDekpuxPq5_YWhu-6Dn1yFMEMc
